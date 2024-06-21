@@ -3,7 +3,7 @@ function darkMode() {
     element.classList.toggle("dark-mode")
 }
 
-function darkMode() {
+function changE() {
     var x = document.getElementById("helloDIV");
     if (x.innerHTML === "Hello") {
         x.innerHTML = "Goodbye!";
