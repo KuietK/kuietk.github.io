@@ -15,7 +15,5 @@ function changE() {
 
 function pasS() {
     var x = document.getElementById("passDIV")
-
-
     x.innerHTML = "5";
 }
