@@ -1,14 +1,14 @@
 function darkMode() {
     var element = document.body;
-    element.classList.toggle("dark-mode")
+    element.classList.toggle("eyebleed")
 }
 
 function changE() {
     var x = document.getElementById("helloDIV");
-    if (x.innerHTML === "Hello") {
+    if (x.innerHTML === "Hello World!") {
         x.innerHTML = "Goodbye!";
     } else {
-        x.innerHTML = "Hello";
+        x.innerHTML = "Hello World!";
     }
 
 }
