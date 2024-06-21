@@ -1,4 +1,4 @@
-function darkMode() {
+function darkmodE() {
     var element = document.body;
     element.classList.toggle("eyebleed")
 }
@@ -12,3 +12,9 @@ function changE() {
     }
 
 }
+
+function pasS()
+    var x = document.getElementById("passDIV")
+
+
+    x.innerHTML = "5";
