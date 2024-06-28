@@ -32,6 +32,11 @@ function pasS() {
     var x = document.getElementById("passDIV");
     // targets [passDIV]
     var picK = letterS[Math.floor(Math.random() * letterS.length)];
+        // targets [letterS]
+            // multiplies [letterS] length times a random float between 0 and 1
+            // - basically divides it
+                // math.floor rounds it to the closest lowest number
+                // - that picks the index number from the array
 
     x.innerHTML = picK
 
