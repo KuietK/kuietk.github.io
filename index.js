@@ -37,7 +37,15 @@ function pasS() {
             // - basically divides it
                 // math.floor rounds it to the closest lowest number
                 // - that picks the index number from the array
+    let pasS = []
 
-    x.innerHTML = picK
+    for (let i = 0; i < 11) {
+       
+        pasS.push(picK)
+    }
+
+
+
+    x.innerHTML = pasS
 
 }
