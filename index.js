@@ -42,6 +42,7 @@ function pasS() {
     for (let i = 0; i < 11; i++) {
        
         pasS.push(picK)
+        pasS.join(str(picK))
     }
 
 
