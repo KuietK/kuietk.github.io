@@ -39,7 +39,7 @@ function pasS() {
                 // - that picks the index number from the array
     let pasS = []
 
-    for (let i = 0; i < 11) {
+    for (let i = 0; i < 11); {
        
         pasS.push(picK)
     }
