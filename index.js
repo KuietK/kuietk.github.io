@@ -46,7 +46,7 @@ function pasS() {
     
     }
     
-    passSTR = str(pasS)
+    passSTR = String(pasS)
 
 
     x.innerHTML = passSTR
