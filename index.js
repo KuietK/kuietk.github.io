@@ -40,9 +40,9 @@ function pasS() {
     let pasS = []
 
     for (let i = 0; i < 11; i++) {
-       
+    // for loop that goes from 0 to 10   
         var pick1 = letterS[Math.floor(Math.random() * letterS.length)];
-        pasS.push(pick1)
+        pasS.push(pick1);
         //pasS.join(str(picK))
     }
 
