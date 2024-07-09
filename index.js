@@ -42,7 +42,7 @@ function pasS() {
     for (let i = 0; i < 11; i++) {
        
         var pick1 = letterS[Math.floor(Math.random() * letterS.length)];
-        pasS.push(pick1)
+        pasS.join(pick1)
         //pasS.join(str(picK))
     }
 
