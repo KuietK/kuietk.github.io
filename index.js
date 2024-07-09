@@ -48,9 +48,11 @@ function pasS() {
     
     passSTR = String(pasS)
     //makes array into string
-    passCLEAN = passSTR.replace(',', '')
+    
+    for (let 1 = 0; i <11, i++) {
+        passCLEAN = passSTR.replace(',', '');
     //removes comma(s)
-
+    {
     x.innerHTML = passCLEAN
 
 }
