@@ -49,10 +49,10 @@ function pasS() {
     passSTR = String(pasS)
     //makes array into string
     
-    for (let 1 = 0; i <11, i++) {
+    for (let i = 0; i < 11; i++) {
         passCLEAN = passSTR.replace(',', '');
     //removes comma(s)
-    {
+    }
     x.innerHTML = passCLEAN
 
 }
