@@ -47,8 +47,10 @@ function pasS() {
     }
     
     passSTR = String(pasS)
+    //makes array into string
+    passCLEAN = passSTR.replace(',', '')
+    //removes comma(s)
 
-
-    x.innerHTML = passSTR
+    x.innerHTML = passCLEAN
 
 }
