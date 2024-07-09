@@ -43,11 +43,12 @@ function pasS() {
     // for loop that goes from 0 to 10   
         var pick1 = letterS[Math.floor(Math.random() * letterS.length)];
         pasS.push(pick1);
-        //pasS.join(str(picK))
+    
     }
+    
+    passSTR = str(pasS)
 
 
-
-    x.innerHTML = pasS
+    x.innerHTML = passSTR
 
 }
